@@ -137,3 +137,13 @@ main section p{
     color: #C0C0C0;
     padding: 18px
 }
+body p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: chocolate;
+    padding: 18px
+}
