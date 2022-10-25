@@ -98,7 +98,7 @@ header{
     color: #FFFFFF;
 }
 .m_section{
-    background-image: url('/images/background_main.jpg');
+    background-image: url('../images/background_main.jpg');
     background-size: cover;
     height: 100vh;
     display: flex;
