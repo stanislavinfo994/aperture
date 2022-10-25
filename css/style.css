@@ -139,11 +139,11 @@ main section p{
 }
 body p{
     font-family: 'Poppins';
-    font-style: normal;
+    font-style: oblique;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 25px;
     line-height: 20px;
     text-align: center;
-    color: chocolate;
+    color: blue;
     padding: 18px
 }
