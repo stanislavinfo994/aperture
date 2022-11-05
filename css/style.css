@@ -17,6 +17,12 @@ header{
     padding: 18px 0;
     background-color: #181818;
     border-radius: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+}
+.body {
+    padding-top: 83px;
 }
 .container{
     max-width: 1200px;
@@ -78,7 +84,7 @@ header{
     text-decoration: none;
     background: #FFFFFF;
     border-radius: 14px;
-    padding: 9px 20px 13px
+    padding: 9px 20px 13px;
 }
 .nav_marg0{
     margin-left: 340px;
@@ -100,13 +106,53 @@ header{
 .m_section{
     background-image: url('../images/background_main.jpg');
     background-size: cover;
-    height: 100vh;
+    height: calc(100vh - 83px);
     display: flex;
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 71px;
     box-sizing: border-box;
+    position: relative;
 }
+.fixed_location{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.fixed_location li{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+}
+.fixed_location li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/icon1.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+.fixed_location li:nth-child(2):before{
+    background-image: url("../images/icon2.svg");
+}
+.fixed_location li:nth-child(3):before{
+    background-image: url("../images/icon3.svg");
+    width: 32px;
+}
+.fixed_location li:nth-child(4):before{
+    background-image: url("../images/icon4.svg");
+    width: 10px;
+}
+
 main section h2{
     font-family: 'Poppins';
     font-style: normal;
