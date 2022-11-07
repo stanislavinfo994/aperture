@@ -114,6 +114,38 @@ header{
     box-sizing: border-box;
     position: relative;
 }
+.m_section h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+.m_section h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.m_section p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #C0C0C0;
+    padding: 18px
+}
+
+
 .fixed_location{
     position: absolute;
     right: 40px;
@@ -153,39 +185,157 @@ header{
     width: 10px;
 }
 
-main section h2{
+.sunset .sub_container {
+    max-width: 298px;
+    margin-right: 62px;
+    padding-top: 280px;
+}
+.sunset{
+    background-image: url("../images/background_mountain.jpg");
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-content: center;
+}
+
+.sunset h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.sunset p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.leafs {
+    background-image: url("../images/monstera_leafs.jpg");
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-content: center;
+}
+.leafs .sub_container2{
+    max-width: 273px;
+    margin-right: 87px;
+    padding-top: 280px;
+}
+.leafs h4{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #C0C0C0;
+    color: #FFFFFF;
 }
-main section h1{
+.leafs p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 54px;
-    line-height: 59px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.star_fall{
+    background-image: url("../images/star_fall_in_the_himalayas.jpg");
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-content: center;
+}
+.star_fall .sub_container3{
+    max-width: 241px;
+    margin-right: 80px;
+    padding-top: 270px;
+}
+.star_fall h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.star_fall p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.getintouch{
+    height: 414px;
+    background-color: #000000;
+}
+.t_centre{
+    max-width: 571px;
+    text-align: center;
+    margin: auto;
+    padding: 113px 434px;
+}
+.getintouch h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
     text-align: center;
     color: #FFFFFF;
 }
-main section p{
+.getintouch p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 24px;
+    line-height: 30px;
     text-align: center;
     color: #C0C0C0;
-    padding: 18px
+    padding-top: 15px;
 }
+.a1 {
+    list-style: none;
 
-
-
-
-
-
+}
+.nav_marg4 {
+    margin-top: 31px;
+}
+.g_touch{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 9px 10px 13px 42px;
+}
+.getintouch a:before{
+    content: "";
+    display: inline-block;
+    background-color: #000000;
+    width: 20.97px;
+    height: 20.97px;
+    border-radius: 12.5833px;
+}
