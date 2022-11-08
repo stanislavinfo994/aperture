@@ -1,0 +1,19 @@
+@media screen and (max-width: 360px) {
+
+}
+@media screen and (max-width: 428px) {
+    .item{
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .m_section{
+        display: none;
+    }
+}
+@media screen and (max-width: 850px) {
+    .item{
+        margin-right: 7px;
+        font-size: 9px;
+    }
+}
