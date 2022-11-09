@@ -1,19 +1,81 @@
 @media screen and (max-width: 360px) {
-
-}
-@media screen and (max-width: 428px) {
-    .item{
-        margin-right: 5px;
+    .container{
+        width: 100%;
     }
-}
-@media screen and (max-width: 768px) {
-    .m_section{
-        display: none;
+    .d_flex{
+        flex-wrap: wrap;
     }
-}
-@media screen and (max-width: 850px) {
-    .item{
-        margin-right: 7px;
+    .nav_marg0{
+        margin-left: 10px;
+    }
+    .nav_marg1{
+        margin-left: 10px
+    }
+    .nav_marg2{
+        margin-left: 10px
+    }
+    .nav_marg3{
+        margin-left: 10px
+    }
+    .container li a {
         font-size: 9px;
     }
+    .m_section{
+        height: calc(85vh - 83px);
+    }
 }
+@media screen and (max-width: 428px) {
+    .container{
+        width: 100%;
+    }
+    .d_flex{
+        flex-wrap: wrap;
+    }
+    .nav_marg0{
+        margin-left: 10px;
+    }
+    .nav_marg1{
+        margin-left: 10px
+    }
+    .nav_marg2{
+        margin-left: 10px
+    }
+    .nav_marg3{
+        margin-left: 10px
+    }
+    .container li a {
+        font-size: 9px;
+    }
+    .m_section{
+        height: calc(80vh - 83px);
+    }
+}
+@media screen and (max-width: 767px) {
+    .
+
+}
+@media screen and (max-width: 850px) {
+
+}
+
+/*
+Телефоны:
+280px
+320px
+360px
+375px
+390px
+412px
+414px
+428px
+
+Планшеты:
+768px
+800px
+820px
+834px
+992px
+1024px
+
+Всё что больше 1024px - Декстопы
+ */
