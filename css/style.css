@@ -313,6 +313,10 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.past_clients a{
+   max-width: 128px;
+    display: inline-block;
+}
 
 .getintouch{
     height: 414px;
@@ -368,4 +372,17 @@ header{
     height: 32px;
     border-radius: 12.5833px;
     margin-right: 7px;
+}
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
+.owl-item {
+    text-align: center;
+}
+.owl-nav .owl-prev{
+    position: absolute;
+    left: 0;
+    top: 30%;
+
 }
