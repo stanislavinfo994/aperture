@@ -16,9 +16,7 @@
 header{
     padding: 18px 0;
     background-color: #181818;
-    border-radius: 0px;
     width: 100%;
-    box-sizing: border-box;
     top: 0;
 }
 .body {
@@ -32,10 +30,14 @@ header{
     margin: auto;
     align-items: center;
 }
+.container_logo {
+    padding: 0 32px;
+}
 
 .d_flex{
     list-style: none;
     display: flex;
+    align-items: center;
 }
 .b_areas{
     font-family: 'Poppins';
@@ -55,24 +57,7 @@ header{
     color: #FFFFFF;
     text-decoration: none;
 }
-.g_cage{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-.contact{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    color: #FFFFFF;
-    text-decoration: none;
-}
+
 .g_template{
     font-family: 'Poppins';
     font-style: normal;
@@ -87,16 +72,16 @@ header{
     padding: 9px 20px 13px;
 }
 .nav_marg0{
-    margin-left: 340px;
+    margin-right: 56px;
+    padding: 0;
 }
 .nav_marg1{
-    margin-left: 56px;
+    margin-right: 32px;
+    padding: 0;
 }
 .nav_marg2{
-    margin-left: 32px;
-}
-.nav_marg3{
-    margin-left: 31px;
+    margin-right: 31px;
+    padding: 0;
 }
 .b_ground{
     max-width: 580px;
@@ -256,8 +241,8 @@ header{
     align-items: center;
 }
 .star_fall .sub_container3{
-    max-width: 241px;
-    margin-right: 80px;
+    max-width: 273px;
+    margin-right: 87px;
 }
 .star_fall h4{
     font-family: 'Poppins';

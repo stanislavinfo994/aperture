@@ -1,70 +1,114 @@
 @media screen and (max-width: 360px) {
-    .container{
-        width: 100%;
-    }
+
+}
+@media screen and (max-width: 428px) {
     .d_flex{
-        flex-wrap: wrap;
+        display: block;
     }
-    .nav_marg0{
-        margin-left: 10px;
-    }
-    .nav_marg1{
-        margin-left: 10px
-    }
-    .nav_marg2{
-        margin-left: 10px
-    }
-    .nav_marg3{
-        margin-left: 10px
-    }
-    .container li a {
-        font-size: 9px;
+    .container {
+        width: 100%;
     }
     .m_section{
         height: calc(85vh - 83px);
     }
-}
-@media screen and (max-width: 428px) {
-    .container{
-        width: 100%;
+    .m_section h2{
+        font-size: 15px;
     }
-    .d_flex{
-        flex-wrap: wrap;
+    .m_section h1{
+        font-size: 45px;
     }
-    .nav_marg0{
-        margin-left: 10px;
+    .m_section p{
+        font-size: 15px;
     }
-    .nav_marg1{
-        margin-left: 10px
+    .past_clients h4{
+        font-size: 30px;
     }
-    .nav_marg2{
-        margin-left: 10px
+    .past_clients p{
+        font-size: 18px;
     }
-    .nav_marg3{
-        margin-left: 10px
+    .b_areas{
+        font-size: 10px;
     }
-    .container li a {
-        font-size: 9px;
+    .f_images{
+        font-size: 10px;
     }
-    .m_section{
-        height: calc(80vh - 83px);
+    .g_template{
+        font-size: 10px;
+        border-radius: 14px;
+        padding: 3px 4px 3px;
+    }
+    .getintouch h4{
+        font-size: 30px;
+    }
+    .getintouch p{
+        font-size: 20px;
     }
 }
 @media screen and (max-width: 767px) {
-    .
+    .d_flex{
+        display: block;
+    }
+    .b_areas{
+        font-size: 12px;
+    }
+    .f_images{
+        font-size: 12px;
+    }
+    .g_template{
+        font-size: 12px;
+        border-radius: 14px;
+        padding: 1px 3px
+    }
+    .nav_marg0{
+        margin-right: 40px;
+    }
+    .nav_marg1{
+        margin-right: 25px;
+    }
+    .nav_marg2{
+        margin-right: 25px;
+    }
+}
+@media screen and (max-width: 780px) {
+
 
 }
 @media screen and (max-width: 850px) {
-
+    .nav_marg0{
+        margin-right: 25px;
+    }
+    .nav_marg1{
+        margin-right: 15px;
+    }
+    .nav_marg2 {
+        margin-right: 15px;
+    }
+}
+@media screen and (max-width: 890px) {
+    .nav_marg0{
+        margin-right: 20px;
+    }
+    .nav_marg1{
+        margin-right: 13px;
+    }
+    .nav_marg2{
+        margin-right: 13px;
+    }
+    .b_areas{
+        font-size: 12px;
+    }
+    .f_images{
+        font-size: 12px;
+    }
 }
 
 /*
 Телефоны:
 280px
 320px
-360px
+360px x 740px - Galaxy S8
 375px
-390px
+390px x 844px - iPhone 12 Pro
 412px
 414px
 428px
@@ -72,10 +116,10 @@
 Планшеты:
 768px
 800px
-820px
+820px x 1180 iPad Air
 834px
 992px
 1024px
 
-Всё что больше 1024px - Декстопы
+Всё что больше 1024px - Деcктопы
  */
