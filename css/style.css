@@ -487,12 +487,10 @@ header{
     }
 }
 
-
 @media only screen and (min-width: 768px) {
     .cd-3d-nav-container {
         height: 170px; }
 }
-
 @media only screen and (min-width: 768px) {
     .cd-3d-nav a {
         padding: 7.6em 1em 0;
@@ -529,7 +527,6 @@ header{
     white-space: nowrap;
     color: transparent;
     display: none;
-    padding-left: 20px;
 }
 
 .cd-marker {
@@ -626,4 +623,5 @@ main.nav-is-visible {
 
 }
 .cd-3d-nav .cd-selected a {
-    background-color: #181818;}
+    background-color: #181818;
+}
