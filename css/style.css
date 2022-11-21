@@ -527,6 +527,7 @@ header{
     white-space: nowrap;
     color: transparent;
     display: none;
+    padding-left: 18px;
 }
 
 .cd-marker {
