@@ -106,9 +106,18 @@
     .nav_marg2{
         margin-right: 25px;
     }
+    .container_2{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .tools .item{
+        z-index: 1;
+    }
 }
 @media screen and (max-width: 780px) {
-
+    .tools .item {
+        z-index: 1;
+    }
 
 }
 @media screen and (max-width: 850px) {
@@ -120,6 +129,9 @@
     }
     .nav_marg2 {
         margin-right: 15px;
+    }
+    .tools .item {
+        z-index: 1;
     }
 }
 @media screen and (max-width: 890px) {
@@ -340,6 +352,9 @@
     -moz-transition: -moz-transform 0.5s 0s, visibility 0.5s 0s;
     transition: transform 0.5s 0s, visibility 0.5s 0s;
 }
+
+
+
 /*
 Телефоны:
 280px
