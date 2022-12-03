@@ -1,3 +1,4 @@
+/*
 @font-face {
     font-family: 'poppinsregular';
     src: url('../fonts/poppins-regular-webfont.eot');
@@ -9,6 +10,9 @@
     font-weight: normal;
     font-style: normal;
 }
+*/
+
+/*
 *{
     padding: 0;
     margin: 0;
@@ -38,6 +42,9 @@ header{
     display: flex;
     align-items: center;
 }
+
+ */
+/*
 .b_areas{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -70,6 +77,8 @@ header{
     border-radius: 14px;
     padding: 9px 20px 13px;
 }
+ */
+/*
 .nav_marg0{
     margin-right: 56px;
     padding: 0;
@@ -128,6 +137,9 @@ header{
     color: #C0C0C0;
     padding: 18px
 }
+
+ */
+/*
 .fixed_location{
     position: absolute;
     right: 40px;
@@ -155,6 +167,9 @@ header{
     height: 16px;
     margin-right: 6px;
 }
+
+ */
+/*
 .fixed_location li:nth-child(2):before{
     background-image: url("../images/icon2.svg");
 }
@@ -167,6 +182,8 @@ header{
     width: 10px;
 }
 
+ */
+/*
 .sunset .sub_container {
     max-width: 298px;
     margin-right: 62px;
@@ -199,6 +216,8 @@ header{
     line-height: 20px;
     color: #C0C0C0;
 }
+ */
+/*
 .leafs {
     background-image: url("../images/monstera_leafs.jpg");
     background-size: cover;
@@ -230,6 +249,9 @@ header{
     line-height: 20px;
     color: #C0C0C0;
 }
+
+ */
+/*
 .star_fall{
     background-image: url("../images/star_fall_in_the_himalayas.jpg");
     background-size: cover;
@@ -261,6 +283,9 @@ header{
     line-height: 20px;
     color: #C0C0C0;
 }
+
+ */
+/*
 .past_clients {
     max-height: 500px;
     background-color: #000000;
@@ -301,7 +326,8 @@ header{
    max-width: 128px;
     display: inline-block;
 }
-
+*/
+/*
 .getintouch{
     height: 414px;
     background-color: #000000;
@@ -332,7 +358,8 @@ header{
     padding-top: 15px;
     padding-bottom: 22px;
 }
-
+*/
+/*
 .g_touch{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -348,6 +375,9 @@ header{
     display: inline-flex;
     align-items: center;
 }
+
+ */
+/*
 .getintouch a:before{
     content: "";
     display: inline-block;
@@ -357,6 +387,9 @@ header{
     border-radius: 12.5833px;
     margin-right: 7px;
 }
+
+ */
+/*
 .owl-stage {
     display: flex;
     align-items: center;
@@ -369,6 +402,9 @@ header{
     left: 0;
     top: 30%;
 }
+
+ */
+/*
 .faq{
     background-color: #181818;
     padding: 70px 0;
@@ -451,12 +487,14 @@ header{
 }
 
 
+ */
+
 /* ---Main Components ---- */
+/*
 .cd-header {
     -webkit-transition: -webkit-transform 0.5s;
     -moz-transition: -moz-transform 0.5s;
     transition: transform 0.5s;
-    /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translateZ(0);
     -moz-transform: translateZ(0);
     -ms-transform: translateZ(0);
@@ -470,6 +508,8 @@ header{
     display: table;
     clear: both;
 }
+*/
+/*
 .cd-header.nav-is-visible {
     -webkit-transform: translateY(80px);
     -moz-transform: translateY(80px);
@@ -500,7 +540,6 @@ header{
         text-align: center;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        /* truncate text with ellipsis if too long */
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -516,12 +555,13 @@ header{
         transform: translateX(-50%);
     }
 }
+*/
+/*
 .cd-3d-nav-trigger {
     position: relative;
     float: right;
     height: 45px;
     width: 45px;
-    /* replace text with background image */
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
@@ -531,7 +571,6 @@ header{
 }
 
 .cd-marker {
-    /* line at the bottom of nav selected item */
     position: absolute;
     bottom: 0;
     left: 0;
@@ -553,7 +592,6 @@ header{
     transition: transform 0.5s, left 0.5s, color 0.5s, background-color 0.5s;
 }
 .cd-marker::before {
-    /* triangle at the bottom of nav selected item */
     content: '';
     position: absolute;
     bottom: 3px;
@@ -575,8 +613,9 @@ header{
     -ms-transform: translateZ(0);
     -o-transform: translateZ(0);
     transform: translateZ(0); }
-
+*/
 /* these are the colors of the markers - line + arrow */
+/*
 .color-1 {
     color: #9a57bd; }
 
@@ -596,7 +635,6 @@ main {
     -webkit-transition: -webkit-transform 0.5s;
     -moz-transition: -moz-transform 0.5s;
     transition: transform 0.5s;
-    /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translateZ(0);
     -moz-transform: translateZ(0);
     -ms-transform: translateZ(0);
@@ -626,7 +664,8 @@ main.nav-is-visible {
 .cd-3d-nav .cd-selected a {
     background-color: #181818;
 }
-
+*/
+/*
 .what_we_do{
     background-color: #000000;
     padding-top: 112px;
@@ -708,6 +747,9 @@ main.nav-is-visible {
     border-radius: 12.5833px;
     margin-right: 7px;
 }
+
+ */
+/*
 .tools{
     background-color: black;
     min-height: 540px;
@@ -768,3 +810,5 @@ main.nav-is-visible {
     border-radius: 12.5833px;
     margin-right: 7px;
 }
+
+ */
