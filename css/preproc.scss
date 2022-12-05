@@ -339,7 +339,6 @@ header{
       font-size: 18px;
     }
   }
-
   a {
     max-width: 128px;
     display: inline-block;
@@ -431,11 +430,20 @@ header{
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
-
+    @media screen and (max-width: 767px) {
+        width: 100%;
+        flex-wrap: wrap;
+    }
     .text {
       max-width: 500px;
       padding-right: 50px;
       box-sizing: border-box;
+      @media screen and (max-width: 767px) {
+        max-width: 500px;
+        padding: 50px;
+        box-sizing: border-box;
+        text-align: center;
+      }
 
       h3 {
         font-family: $main_font;
@@ -581,7 +589,7 @@ header{
     }
   }
   .cd-3d-nav-trigger {
-    position: relative;
+    position: absolute;
     float: right;
     height: 45px;
     width: 45px;
@@ -591,6 +599,13 @@ header{
     color: transparent;
     display: none;
     padding-left: 22px;
+    @media screen and (max-width: 767px) {
+      display: inline-block;
+      position: absolute;
+      right: 71px;
+      top: 15px;
+    }
+
   }
   .cd-marker {
     position: absolute;

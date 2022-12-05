@@ -67,10 +67,7 @@
 
 }
 @media screen and (max-width: 767px) {
-    .d_flex{
-
-    }
-    faq .container {
+    .faq .container {
         width: 100%;
         flex-wrap: wrap;
     }
@@ -82,6 +79,9 @@
     }
     .cd-3d-nav-trigger{
         display: inline-block;
+        position: absolute;
+        right: 71px;
+        top: 15px;
     }
     .b_areas{
         font-size: 12px;
